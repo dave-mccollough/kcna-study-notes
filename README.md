@@ -2,6 +2,7 @@
 
 ## Resources
 
+- [The KCNA Book: Kubernetes and Cloud Native Associate](https://www.amazon.com/gp/product/1916585035/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1)
 - [KodeKloud Kubernetes and Cloud-Native Associate (KCNA) Course](https://kodekloud.com/courses/kubernetes-and-cloud-native-associate-kcna/)
 
 ## Course
