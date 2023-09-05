@@ -1,0 +1,10 @@
+# Containerd vs Docker
+
+- Container Runtime Interface (CRI) allows any vender to work as a container runtime for Kubernetes as long as they adhere to Open Container Inititive (OCI) standards
+    - OCI consists of:
+        - Runtime spec: Specifications on how container runtime should be developed
+        - Image spec: Specifications on how an image should be built
+- Docker wasn't built to support the CRI standards
+    - Kubernetes introduced dockershim to support Docker outside of CRI
+- dockershim was removed in Kubernetes 1.24 since support was added for containerd and Docker works with containerd
+- containerd is an industry standard container runtime
